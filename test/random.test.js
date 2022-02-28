@@ -6,6 +6,11 @@ import getRandomInt from '../src/random';
  * Test Suite
  */
 
+function getRandomInt(min, max) {
+  console.log(Math.max(0, 3));
+  return;
+}
+
 test('test 0 & 1', () => {
   expect(getRandomInt(0, 0)).toBe(0);
   expect(getRandomInt(0, 1)).toBe(0);

@@ -20,8 +20,8 @@ const farewell = document.querySelector('.farewell');
 const suits = ['hearts', 'spades', 'diamonds', 'clubs'];
 
 while (confirm('Would you like to play the game?')) {
-  // Put your code in this while loop
-  // Remember to use prompt and alert
+  alert('Yeah, you won! The answer was ... ');
+  prompt('What suit is my card -  Hearts, Spades, Diamonds, or Clubs?');
 }
 
 farewell.innerHTML = '<h1>Thanks for playing!<h1>';
